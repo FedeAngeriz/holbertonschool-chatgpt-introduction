@@ -14,7 +14,7 @@ if len(sys.argv) > 1:
         if n < 0:
             print("El factorial no está definido para números negativos.")
         else:
-            f = factorial(int(sys.argv[1]))
+            f = factorial(n)
             print(f"El factorial de {n} es {f}.")
     except ValueError:
         print("Por favor, introduce un número entero válido.")
